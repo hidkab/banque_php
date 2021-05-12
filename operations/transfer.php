@@ -1,6 +1,6 @@
-<?php include('template/head.php'); ?>
-<?php include('template/nav.php'); ?>
-<?php include('template/header.php'); ?>
+<?php include('../template/head.php'); ?>
+<?php include('../template/nav.php'); ?>
+<?php include('../template/header.php'); ?>
 <main class="container my-5 ">
     <h1 class="text-center my-5">Faire un Virement</h1>
     <div class="my-3">
@@ -28,5 +28,5 @@
       <button class="btn btn-primary" type="submit">Envoyer</button>
     </div>
   </main>
-<?php include('template/footer.php'); ?>
+<?php include('../template/footer.php'); ?>
 
