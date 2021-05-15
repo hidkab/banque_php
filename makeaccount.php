@@ -1,9 +1,8 @@
 <?php 
-$account = get_accounts();
-foreach($account as $element)
-echo $element;
 
+foreach($get_accounts() as $element) 
+{
 
-
-
+    echo "$element";
+}
 ?>
