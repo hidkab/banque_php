@@ -1,4 +1,6 @@
-<footer class="bg-dark text-white text-center py-5">
+</main>
+
+  <footer class="bg-dark text-white text-center py-5">
     <div class="container">
       <p>Mentions légales</p>
     </div>
