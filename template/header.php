@@ -60,7 +60,7 @@
     </div>
 
     <?php if(isset($_SESSION["customer"])): ?>
-        <a class="btn btn-dark w-25 mx-2 text-danger " href="logout.php">Déconnexion</a>
+        <a class="btn btn-dark w-25 mx-2 mb-2 text-danger " href="logout.php">Déconnexion</a>
     <?php endif; ?>
 
   </div>

@@ -4,7 +4,6 @@
     require "model/accountModel.php";
     include "template/header.php";
 
-    
     if(isset($_GET["id"]) && !empty($_GET["id"])) {
         $account = getSingleAccount($db, $_GET["id"]);
     }
@@ -14,7 +13,7 @@
 ?>
 
 <?php if(isset($account)): ?>
-    <h2 class="text-center"><?php echo $account["account_type"]; ?></h2>
+    <h2 class="ext-center"><?php echo $account["account_type"]; ?></h2>
 <?php else : ?>
     <div class="alert alert-secondary text-center" role="alert">
         <?php echo $error; ?>
