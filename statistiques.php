@@ -5,3 +5,4 @@
     <h1>statistiques </h1>
 </main>
 <?php include('template/footer.php'); ?>
+
