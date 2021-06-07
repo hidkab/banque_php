@@ -15,7 +15,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])) {
     $error_message ="Votre pseudo ou mot de passe invalide";
 }
 
-include "template/header.php"; 
+include "view/template/header.php"; 
 ?>
     <h2 class="text-center">Accéder à votre espace</h2>
 
@@ -40,5 +40,5 @@ include "template/header.php";
     </form>
     
 
-<?php include('template/footer.php'); ?>
+<?php include("view/template/footer.php"); ?>
 

@@ -1,4 +1,6 @@
 <?php 
+require "model/connexion.php";
+
 function getCustomerByMail(PDO $db, string $email) {
     $query = $db->prepare("SELECT * FROM customer WHERE email=:email");
     $query->execute([

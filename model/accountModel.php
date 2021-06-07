@@ -1,4 +1,6 @@
 <?php 
+require "model/connexion.php";
+
 // fonction pour récuperer tout les comptes
 function getAccount(PDO $db, int $id):array {
     $query = $db->prepare("SELECT * FROM account WHERE customer_id =:id");
