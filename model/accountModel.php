@@ -29,5 +29,9 @@ function getSingleAccount(PDO $db, int $id) {
 //     ]);
 //     return $result;
 // }
+
+
+
+// verification
 ?>
 
