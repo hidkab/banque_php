@@ -1,14 +1,23 @@
 
 <?php 
-    require "model/accountModel.php";
+    require "model/entity/account.php";
+    require "model/accountManager.php";
 
     session_start();
     if(!isset($_SESSION["customer"])) {
         header("Location:login.php");
         exit;
     }
+    $accountManager = new AccountManager();
+    // var_dump($accounts);
+    
+    if(!empty($_POST)) {
+        $account = new Account($_POST);
+        $accountManager->addAccount($account);
+    }
+    $accounts = $accountManager->getAccounts();
+    var_dump($account);
 
-    $accounts = getAccount($db, $_SESSION["customer"]["id"]);
 
     require "view/indexView.php";
 
