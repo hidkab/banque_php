@@ -44,7 +44,7 @@
               Opérations
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Créer un compte</a></li>
+              <li><a class="dropdown-item" href="addAccount.php">Créer un compte</a></li>
               <li><a class="dropdown-item" href="#">Dépôt et Rettait</a></li>
               <li><a class="dropdown-item" href="#">Virement</a></li>
               <li><a class="dropdown-item" href="#">Clôturer un compte</a></li>

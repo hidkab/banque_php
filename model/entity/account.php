@@ -4,7 +4,7 @@ class Account {
     protected string $account_number;
     protected string $account_type;
     protected int $amount;
-    protected string $operation_date;
+    // protected string $operation_date;
     protected int $customer_id;
 
     // setters
@@ -20,9 +20,9 @@ class Account {
     public function setAmount(int $amount) {
         $this->amount = $amount;
     }
-    public function setOperation_date(string $operation_date) {
-        $this->operation_date = $operation_date;
-    }
+    // public function setOperation_date(string $operation_date) {
+    //     $this->operation_date = $operation_date;
+    // }
     public function setCustomer_id(int $customer_id) {
         $this->customer_id = $customer_id;
     }
@@ -40,9 +40,9 @@ class Account {
     public function getAmount():int {
         return $this->amount;
     }
-    public function getOperation_date():string {
-        return $this->operation_date;
-    }
+    // public function getOperation_date():string {
+    //     return $this->operation_date;
+    // }
     public function getCustomer_id():int {
         return $this->customer_id;
     }

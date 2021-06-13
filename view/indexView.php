@@ -8,7 +8,7 @@
         <th scope="col">TYPE DE COMPTE</th>
         <th scope="col">N° DE COMPTE</th>
         <th scope="col">MONTANT</th>
-        <th scope="col">MONTANT D'OPERATION</th>
+        <!-- <th scope="col">DATE D'OPERATION</th> -->
         </tr>
     </thead>
     <tbody>
@@ -17,7 +17,7 @@
             <td><?php echo $account->getAccount_type(); ?></td>
             <td><?php echo $account->getAccount_number(); ?></td>
             <td><?php echo $account->getAmount(); ?></td>
-            <td><?php echo $account->getOperation_date(); ?></td>
+            <!-- <td><?php echo $account->getOperation_date(); ?></td> -->
         </tr>
         <?php endforeach; ?>
     </tbody>
