@@ -16,7 +16,7 @@
         $accountManager->addAccount($account);
     }
     $accounts = $accountManager->getAccounts();
-    var_dump($account);
+    // var_dump($accounts);
 
 
     require "view/indexView.php";
